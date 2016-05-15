@@ -1,0 +1,24 @@
+{
+  "name": "ofo_hust",
+  "version": "1.0.0",
+  "description": "ofo_hust",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vagor/OFO_HUST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vagor/OFO_HUST/issues"
+  },
+  "homepage": "https://github.com/Vagor/OFO_HUST#readme"
+}

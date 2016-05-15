@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>OFO有漏洞！哦吼吼</title>
+    <link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1>OFO_HUST <img src="./imgs/bike-color.png" width="40px;"alt="" style="margin-bottom:5px;"/></h1>
+            <small>一个在华科校内共享OFO小黄车的解锁密码平台</small>
+        </div>
+        <div class="container-fluid check-box">
+            <div class="input-group">
+                <input type="text" class="form-control" name="plateNumber" id="plateNumber" placeholder="请输入车牌">
+                <span class="input-group-btn">
+                <button class="btn btn-default" id="checkBtn" type="button">查看密码</button></span>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid success-box">
+            <div class="alert alert-success" role="alert">密码是：<span class="code"></span></div>
+        </div>
+        <div class="container-fluid sr-only failure-box">
+            <div class="alert alert-danger" role="alert">
+                <p>真可惜，还没有此车密码。(*+﹏+*) </p>
+                <br>
+                <p> 贡献你的密码吧!└(^o^)┘ └(^o^)┘</p>
+            </div>
+            <input type="text" class="form-control" id="plateNumberSave" placeholder="再次输入车牌号">
+            <br>
+            <div class="input-group">
+                <input type="text" class="form-control" id="codeSave" placeholder="为推动OFO的完善而贡献">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="saveBtn" type="button">贡献密码</button>
+                  </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid page-footer" style="text-align:center;positon:fixed;bottom:5px;">
+    </div>
+    <script src="./libs/jquery/dist/jquery.min.js"></script>
+    <script src="./libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
